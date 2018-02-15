@@ -2,4 +2,36 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://images02.military.com/sites/default/files/styles/full/public/media/global/newscred/2017/04/us-flag-21-apr-2017.jpeg?itok=RTmFp9Pw");
+}
+
+#header {
+  color: whitesmoke;
+  background: linear-gradient(to bottom right, maroon, yellow);
+  border-style: inset;
+  padding: 40px;
+}
+
+.party {
+  color: darkblue;
+  border-style: solid;
+  background: linear-gradient(#727272, lightgray);
+  padding: 20px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.senator {
+  border-style: double;
+  background-color: ivory;
+}
+
+.link {
+  text-decoration: none;
+  color: darkgreen;
 }
